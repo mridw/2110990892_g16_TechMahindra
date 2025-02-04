@@ -1,0 +1,37 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: bisque;
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+#list{
+    display: flex;
+    list-style: none;
+    
+}
+#list li{
+    margin-right: 20px;
+}
+
+#list li a{
+    color: black;
+}
+.right-nav{
+    text-align: right;
+}
+.data{
+    display: flex;
+}
+.body-container{
+    display: flex;
+
+}
+.footer-container{
+    display: flex;
+}
+ 
