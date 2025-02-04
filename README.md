@@ -1,26 +1,26 @@
-TechM Training
-Project Based Learning
-Interview Based Learning
+TechM Training:
+Project Based Learning-
+Interview Based Learning-
 
-Full Stack
-HTML
-CSS Tailwind
+Full Stack-
+HTML-
+CSS Tailwind-
 
-JS
+JS-
 
-J2EE
-Spring Java Basics 
-React  React Native
+J2EE-
+Spring Java Basics -
+React  React Native-
 
-Postgres SQL
+Postgres SQL-
 
-Github
+Github-
 
-Path5 25th April - Web Dev-HTML, CSS, JS, React
+Path5 25th April - Web Dev-HTML, CSS, JS, React-
 
-Topic Wise Assignment
-Full Stack Project
-1 Week Solo Project Full Stack
-NO Clones
-Avoid E Commerce
-No Small Projects
+Topic Wise Assignment-
+Full Stack Project-
+1 Week Solo Project Full Stack-
+NO Clones-
+Avoid E Commerce-
+No Small Projects-
