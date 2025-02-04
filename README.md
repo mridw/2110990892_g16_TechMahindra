@@ -6,17 +6,17 @@ Interview Based Learning
 Full Stack
 
 HTML-
-CSS Tailwind-
+CSS Tailwind
 
 JS
 
 J2EE-
 Spring Java Basics -
-React  React Native-
+React  React Native
 
-Postgres SQL-
+Postgres SQL
 
-Github-
+Github
 
 Path5 25th April - Web Dev-HTML, CSS, JS, React
 
