@@ -184,56 +184,5 @@
     }
 }
 
-/* Body Container CSS  */
+/* Body CSS  */
 
-.body-container{
-    border: 2px solid red;
-    /* margin-top: 140px; */
-    padding: 20px;
-    display: flex;
-    
-}
-
-.myprofile-container{
-    border: 2px solid green;
-    display: flex;
-    padding: 10px;
-    gap: 20px;
-    /* justify-content: space-between; */
-}
-
-.description-container{
-    border: 2px solid orange;
-    height: 400px;
-    width: 65%;
-    margin-left: 10px;
-
-}
-.p1-description-container{
-    font-size: 68px;
-    font-family: 'Courier New', Courier, monospace;
-}
-.p2-description-container{
-    font-size: 42px;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-.p3-description-container{
-    font-size: 12px;
-    margin-top: 10px;
-
-}
-.name-description-container{
-    font-size: 98px;
-    font-family: '', serif;
-    color: brown;
-
-}
-
-.profile-img-container{
-    border: 2px solid blue;
-    height: 400px;
-    width: 35%;
-
-
-}
