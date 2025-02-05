@@ -206,6 +206,27 @@
     border: 2px solid orange;
     height: 400px;
     width: 65%;
+    margin-left: 10px;
+
+}
+.p1-description-container{
+    font-size: 68px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p2-description-container{
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.p3-description-container{
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.name-description-container{
+    font-size: 98px;
+    font-family: '', serif;
+    color: brown;
 
 }
 
@@ -216,3 +237,4 @@
 
 
 }
+
