@@ -1,31 +1,11 @@
-TechM Training:
+Tech Mahindra College Training
 
-Project Based Learning-
-Interview Based Learning
+Project Based Learning Roadmap
 
-Full Stack
-
-HTML-
-CSS Tailwind
-
-JS
-
-J2EE-
-Spring Java Basics -
-React  React Native
-
+Tech Stack :-
+HTML, CSS, Tailwind, Javascript, Typescript
+React, React Native 
+Java, Springboot, J2EE
 Postgres SQL
-
 Github
-
-Path5 25th April - Web Dev-HTML, CSS, JS, React
-
-Topic Wise Assignment
-
-Full Stack Project
-
-1 Week Solo Project Full Stack
-
-NO Clones-
-Avoid E Commerce-
-No Small Projects
+DevOps - Jenkins(Pods Maker), Kafka(Message Queue), Docker, CI/CD(Continuous Integration)/(Continuous Distribution)
