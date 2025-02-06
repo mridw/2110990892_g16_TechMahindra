@@ -185,4 +185,10 @@
 }
 
 /* Body CSS  */
+.body-container{
+    border: 2px solid red;
 
+}
+.skills-container{
+    border: 2px solid green;
+}

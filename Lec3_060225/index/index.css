@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+	font-family: "Exo 2", serif;
+  }
+body {
+	margin: 0;
+	font-family: 'Segoe UI';
+}
+
+
+/* navbar */
+.nav {
+	width: 100%;
+	background-color: #151933;
+	display: flex;
+	align-items: center;
+}
+.nav > .nav-header {
+	flex: 0.95;
+	padding-left: 1rem;
+}
+.nav > .nav-header > .nav-title {
+	font-size: 22px;
+	color: #fff;
+}
+.nav > .nav-list {
+	display: flex;
+	gap: 2rem;
+}
+.nav > .nav-list > li {
+	list-style-type: none;
+}
+.nav > .nav-list > li a {
+	text-decoration: none;
+	color: #efefef;
+	cursor: pointer;
+}
+.nav > #nav-check {
+	display: none;
+}
+
+
+/* BODY CONTAINER CSS */
+.body-container{
+	/* border: 2px solid red; */
+	padding: 20px;
+}
+
+
+.myprofile-container{
+	/* border: 2px solid yellow; */
+	display: flex;
+	padding: 10px;
+	gap: 10px;
+	height: 40rem;
+	justify-content: center;
+}
+
+
+.discription-container{
+	/* border: 2px solid blue; */
+	width: 65%;
+	background-color: rgba(0, 0, 0, 0.175);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+
+.profile-img-container{
+	/* border: 2px solid green; */
+	width: 30%;
+	border-radius: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+
+/* Discription content */
+
+.hi-component{
+	font-size: 60px;
+}
+
+.mynameis-component{
+	font-size: 40px;
+	margin-top: -40px;
+}
+
+.discription{
+	font-size: 20px;
+}
+
+.name-component{
+	color:#3d6cd97f;
+}
+
+
+
+
+
+
+
+
+
+  /* responsive design */
+  @media (max-width: 480px) {
+	.nav {
+	  padding: 1rem;
+	}
+	.nav > .nav-btn {
+	  display: inline-block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	  padding-top: 0.2rem;
+	}
+	.nav > .nav-btn > label {
+	  display: inline-block;
+	  width: 50px;
+	  height: 50px;
+	  padding: 13px;
+	}
+	.nav > .nav-btn > label > span {
+	  display: block;
+	  width: 25px;
+	  height: 10px;
+	  border-top: 2px solid #eee;
+	}
+	.nav > .nav-list {
+	  position: absolute;
+	  display: flex;
+	  flex-direction: column;
+	  gap: 1rem;
+	  width: 100%;
+	  background-color: #00000063;
+	  height: 0;
+	  transition: all 0.3s ease-in;
+	  top: 40px;
+	  left: 0;
+	  overflow: hidden;
+	}
+	.nav > .nav-list > li {
+	  width: 100%;
+	  margin-top: 1.5rem;
+	}
+	.nav > #nav-check:checked ~ .nav-list {
+	  height: calc(100vh - 50px);
+	}
+  }
+
