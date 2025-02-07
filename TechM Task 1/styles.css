@@ -6,7 +6,7 @@
 }
 
 /* NAVBAR SECTION */
-.navbar-main-container{
+.navbar{
     position: fixed;
     display: flex;
     width: 100%;
@@ -15,19 +15,19 @@
     background-color: white;
 }
 
-.navbar-container-div{
+.navbar-div{
     display: flex;
     justify-content: space-between;
     width: 90%;
 }
 
-.right-navbar-container{
+.right-navbar{
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.right-navbar-container p{
+.right-navbar p{
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 40px;
     padding: 5px 20px;
@@ -35,7 +35,7 @@
     color: hsl(322, 100%, 66%);
 }
 
-/* BODY CONTENT */
+/* BODY */
 .body-container{
     padding-top: 20%;
     font-family: "Poppins", serif;
@@ -73,12 +73,12 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.screen-mockup-images{
+.screen-mockups-image{
     margin-top: 100px;
 }
 
 /* qualities-info */
-.number-flex{
+.numbers-flex{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -151,7 +151,7 @@
     margin-top: 6rem;
     margin-bottom: 3rem;
     padding: 50px 120px;
-    gap: 100px; 
+    gap: 100px;
     font-family: "Open Sans", serif;
 }
 
@@ -173,7 +173,7 @@
 }
 
 /* Build Your Community */
-.build-your-community{
+.build-community{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,13 +222,13 @@ footer span{
 }
 
 
-.logo-image-white {
+.logo-image-footer {
     float: left;
     max-width: 100%; 
     height: auto;
 }
 
-.social-media-icons{
+.social-icons{
     padding-top: 50px;
     display: flex;
     flex-direction: row;
@@ -286,11 +286,13 @@ footer span{
 }
 
 
-/* responsive design */
+/* Responsive design */
 @media (max-width:  375px) {
-    
+    *{
+        overflow-x: hidden;
+    }
     /* navbar */
-    .navbar-main{
+    .navbar-div{
         width: 100%;
         padding: 25px 0;
     }
@@ -308,21 +310,20 @@ footer span{
     }
 
     /* Body content */
-    .get-started-for-free{
+    .get-started{
         gap: 20px;
-        padding: 35% 40px 0 40px;
     }
 
-    .get-started-for-free h1{
+    .get-started h1{
         font-size: 25px;
     }
 
-    .get-started-for-free p{
+    .get-started p{
         width: 90%;
         font-size: 12px;
     }
 
-    .body-content-container button{
+    .body-container button{
         background-color: hsl(322, 100%, 66%);
         padding: 10px 40px;
         border: none;
@@ -436,11 +437,11 @@ footer span{
     }
     
     /* Ready To Build Your Community */
-    .build-your-community h1{
+    .build-community h1{
         font-size: 25px;
     }
 
-    .build-your-community{
+    .build-community{
         padding-bottom: 6rem;
     }
 
@@ -522,7 +523,7 @@ footer span{
         justify-content: left;
     }
     
-    .logo-image-white {
+    .logo-image-footer {
         float: left;
         max-width: 70%; 
         height: auto;
