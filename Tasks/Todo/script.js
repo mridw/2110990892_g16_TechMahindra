@@ -1,5 +1,6 @@
 let jsonDatabase = [
-    
+    { id: 1, name: "abc", age: 30 },
+    { id: 2, name: "def", age: 25 }
   ];
   
   const form = document.getElementById("crudForm");
