@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<doctors>
+    <doctor>
+        <name>Dr A</name>
+        <speciality>Cardiologist</speciality>
+        <patients>
+            <patient>
+                <name>a</name>
+                <age>2</age>
+                <condition>Heart Disease</condition>
+            </patient>
+            <patient>
+                <name>b</name>
+                <age>4</age>
+                <condition>High Blood Pressure</condition>
+            </patient>
+        </patients>
+    </doctor>
+    
+    <doctor>
+        <name>Dr B</name>
+        <speciality>Medicine</speciality>
+        <patients>
+            <patient>
+                <name>c</name>
+                <age>3</age>
+                <condition>Nausea</condition>
+            </patient>
+            <patient>
+                <name>d</name>
+                <age>6</age>
+                <condition>Fever</condition>
+            </patient>
+        </patients>
+    </doctor>
+
+    
+</doctors>
