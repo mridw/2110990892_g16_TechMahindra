@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<people>
+    <person>
+        <name>abc</name>
+        <age>1</age>
+    </person>
+    <person>
+        <name>def</name>
+        <age>2</age>
+    </person>
+    <person>
+        <name>ghi</name>
+        <age>3</age>
+    </person>
+    <person>
+        <name>jkl</name>
+        <age>4</age>
+    </person>
+    <person>
+        <name>mno</name>
+        <age>5</age>
+    </person>
+
+</people>
