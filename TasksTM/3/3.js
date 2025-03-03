@@ -1,0 +1,2 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+import { getDatabase , set, ref,get,remove } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
