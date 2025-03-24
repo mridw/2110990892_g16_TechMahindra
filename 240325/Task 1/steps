@@ -1,0 +1,3 @@
+1. Compile .ts to .js using tsc
+2. include complied ts i.e. .js in html 
+3. open html file and use the ui 
